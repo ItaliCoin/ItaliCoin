@@ -692,7 +692,7 @@ namespace nodetool
   std::set<std::string> node_server<t_payload_net_handler>::get_ip_seed_nodes() const
   {
     std::set<std::string> full_addrs;
-    if (m_nettype == cryptonote::TESTNET)
+    /*if (m_nettype == cryptonote::TESTNET)
     {
       full_addrs.insert("212.83.175.67:28080");
       full_addrs.insert("212.83.172.165:28080");
@@ -722,7 +722,9 @@ namespace nodetool
       full_addrs.insert("66.85.74.134:18080");
       full_addrs.insert("88.99.173.38:18080");
       full_addrs.insert("51.79.173.165:18080");
-    }
+    }*/
+    //full_addrs.insert("164.90.216.172:18081");
+
     return full_addrs;
   }
   //-----------------------------------------------------------------------------------
