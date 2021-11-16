@@ -50,7 +50,7 @@
 #define BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW 60
 
 // MONEY_SUPPLY - total number coins to be generated
-#define MONEY_SUPPLY (uint64_t)(8000000 * 1000000000000) //((uint64_t)(-1)) is 18 446 744 073 709 551 615
+#define MONEY_SUPPLY (uint64_t)(4000000 * 1000000000000) //((uint64_t)(-1)) is 18 446 744 073 709 551 615
 #define EMISSION_SPEED_FACTOR_PER_MINUTE (22)
 #define FINAL_SUBSIDY_PER_MINUTE ((uint64_t)0) // 3 * pow(10, 11)
 
@@ -151,7 +151,7 @@
 
 #define RPC_IP_FAILS_BEFORE_BLOCK 3
 
-#define CRYPTONOTE_NAME "sinfocoin"
+#define CRYPTONOTE_NAME "italicoin"
 #define CRYPTONOTE_BLOCKCHAINDATA_FILENAME "data.mdb"
 #define CRYPTONOTE_BLOCKCHAINDATA_LOCK_FILENAME "lock.mdb"
 #define P2P_NET_DATA_FILENAME "p2pstate.bin"

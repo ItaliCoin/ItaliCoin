@@ -39,7 +39,8 @@ namespace tools
 {
   bool check_updates(const std::string &software, const std::string &buildtag, std::string &version, std::string &hash)
   {
-    std::vector<std::string> records;
+    return false; // EDITED: disabled check for updates
+    /*std::vector<std::string> records;
     bool found = false;
 
     MDEBUG("Checking updates for " << buildtag << " " << software);
@@ -97,7 +98,7 @@ namespace tools
       MINFO("Found new version " << version << " with hash " << hash);
       found = true;
     }
-    return found;
+    return found;*/
   }
 
   std::string get_update_url(const std::string &software, const std::string &subdir, const std::string &buildtag, const std::string &version, bool user)
