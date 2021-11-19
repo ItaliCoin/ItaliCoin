@@ -723,8 +723,8 @@ namespace nodetool
       full_addrs.insert("88.99.173.38:18080");
       full_addrs.insert("51.79.173.165:18080");
     }*/
-    full_addrs.insert("164.90.216.172:18081");
-    full_addrs.insert("164.90.216.172:18091");
+    full_addrs.insert("73.187.115.111:18081");
+    full_addrs.insert("73.187.115.111:18091");
 
     return full_addrs;
   }
